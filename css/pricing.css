@@ -1,0 +1,71 @@
+.pricing{
+    background-color: #F5F5F5;
+    padding: 80px 0;
+}
+
+
+.pricing-about{
+    width: 340px;
+    margin: 0 15px 15px;
+}
+
+.pricing-title {
+    padding:  12px 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2px;
+    background: #333;
+}
+
+.pricing-cost{
+    padding:  27px 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2px;
+    background: #333;
+}
+
+.pricing-dscr{
+    padding:  14px 10px;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 4px;
+    background: #333;
+}
+
+.pricing-white{
+    padding:  10px 10px ;
+    color: #86878B;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4px;
+    background: #FFFFFF;
+    transition: 0.4s, 0.5s;
+}
+
+.pricing-white:last-child{
+    margin-bottom: 0;
+}
+.pricing-white:hover{
+    transform: translate(0px, -3px);
+    box-shadow: 0 0 10px 0 #EC7979;
+}

@@ -1,0 +1,172 @@
+.axit{
+    padding: 99px 0 101px 0;
+    background-image: url(../img/background-1\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.axit::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    z-index: 1;
+  } 
+  
+  .axit .container{
+      position: relative;
+      z-index: 2;
+  }
+
+.axit-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    align-content: center;
+    justify-content: space-between; 
+}
+.axit-left span{
+    font-size: 60px;
+}
+
+.axit-title{
+    margin-top: 42px;
+    width: 544px;
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.axit-title::after{
+    content:"";
+    width: 64px;
+    height: 1px;
+    display: block;
+    background-color:  #FFF;
+    margin: 32px 0 39px;
+}
+
+.axit-about{
+    width: 282px;
+    margin-bottom: 39px;
+}
+.axit-about p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.axit-download{
+    border: 1px solid #FFF;
+    background: rgba(196, 196, 196, 0.00);
+    width: 135px;
+    transition: 0.4s;
+}
+.axit-download a{
+    padding: 11px 26px;
+    text-align: center;
+    display: block;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.axit-download:hover{
+    background-color: #EC7979;
+    border: 1px solid transparent;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px 0  #EC7979;
+    background: linear-gradient(45deg, #EC7979, #0e1538);
+}
+.axit-left{
+    margin: 0 20px 20px 0;
+}
+.axit-right{
+    width: 370px;
+    margin: 0 20px 20px;
+}
+.axit-form{
+    border-radius: 8px;
+    background: #FFF;
+    overflow: hidden;
+    display: block;
+    transition: 0.4s;
+}
+.axit-form-title{
+    color: #333;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 44px;
+    padding-top: 20px;
+}
+.free{
+    color: #EC7979;
+    text-transform: uppercase;
+}
+.axit-form-content{
+    padding: 0 59px 62px;
+}
+.axit-form-content__item label{
+    color: #BDBDBD;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.axit-form-content__item input{
+    height: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    outline: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus{
+    border-bottom: 2px solid #EC7979;
+}
+.axit-form-content__item{
+    margin-bottom: 19px;
+}
+.axit-form-content__item:last-child{
+    margin-bottom: 0;
+}
+.axit-form-button{
+    display: block;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #EC7979;
+    border: 0;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: 0.5s;
+} 
+.axit-form-button:hover{
+ background-color: orange;
+}
+.axit-form:hover{
+    box-shadow: 0 0 27px 0 #BDBDBD;
+}

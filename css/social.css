@@ -1,0 +1,79 @@
+.social{
+    background: #F8EFEF;
+    padding: 14px 0 17px 0;
+}
+
+.social-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-right-list{
+    display: flex;
+    justify-content: space-between;
+    width: 684px;
+}
+.social-left{
+    width: 365px;
+}
+.icons{
+    font-size: 42px;
+    color: rgb(170, 170, 170);
+    transition: 0.4s;
+    font-size: 42px;
+}
+
+.social-title{
+    margin-bottom: 14px;
+    color: #333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.social-about p{
+    color: #86878B;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998; color: rgb(59, 89, 152);
+    transform: rotate(360deg) scale(1.2);
+    transition: 1s;
+}
+.fa-twitter:hover {
+    color: #00aced; color: rgb(0, 172, 237);
+    transform: rotate(360deg) scale(1.2);
+    transition: 1s;
+}
+.fa-google-plus-g:hover {
+    color: #dd4b39; color: rgb(221, 75, 57);
+    transform: rotate(360deg) scale(1.2);
+    transition: 1s;
+}
+.fa-pinterest:hover{
+    color: #cb2027; color: rgb(203, 32, 39);
+    transform: rotate(360deg) scale(1.2);
+    transition: 1s;
+}
+.fa-instagram:hover{
+    color: #bc2a8d; color: rgb(188, 42, 141);
+    transform: rotate(360deg) scale(1.2);
+    transition: 1s;
+}
+.fa-stumbleupon:hover{
+    color: #EB4823; color: rgb(235, 72, 35);
+    transform: rotate(360deg) scale(1.2);
+    transition: 1s;
+}
+.fa-rss:hover{
+    color: #f26522; color: rgb(242, 101, 34);
+    transform: rotate(360deg) scale(1.2);
+    transition: 1s;
+}
